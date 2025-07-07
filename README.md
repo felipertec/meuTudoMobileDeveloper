@@ -12,7 +12,7 @@ Esse Repositório tem como objetivo armazenar todos os projetos que serão desen
 ## Projetos
 |  Nº |  Projetos                                 |                     Repositórios                                             | Status     |
 | ----|-----------------------------------------|------------------------------------------------------------------------------|------------|
-|01  |<img src="img/marioKart.webp" alt="Mario Kart" width="30" style="vertical-align:middle;"/> Simulador do Mario Kart |![](https://img.shields.io/badge/Acessar-000?style=for-the-badge)<!--(https://github.com/felipertec/meuTudoMobileDeveloper) -->|![emprogresso](https://img.shields.io/badge/Em_Progresso-FFBF00?style=for-the-badge)<!--(https://github.com/felipertec/meuTudoMobileDeveloper) -->|
+|01  |<img src="img/marioKart.webp" alt="Mario Kart" width="30" style="vertical-align:middle;"/> Simulador do Mario Kart |[![](https://img.shields.io/badge/Acessar-000?style=for-the-badge)](https://github.com/felipertec/meuTudoMobileDeveloper/tree/main/MarioKartProject)|![emprogresso](https://img.shields.io/badge/Em_Progresso-FFBF00?style=for-the-badge)<!--(https://github.com/felipertec/meuTudoMobileDeveloper) -->|
 
 
 

@@ -92,6 +92,9 @@
       <li><input type="checkbox"><label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
       <li><input type="checkbox"><label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER, quem perder, perde um ponto</label></li>
       <li><input type="checkbox"><label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
+      <li>Extras:</li>
+      <li><input type="checkbox"><label for="pistas-2-3-item">Sortear Alatoriamente se é um casco(-1 ponto) ou uma Bomba(-2 pontos)</label></li>
+      <li><input type="checkbox"><label for="pistas-2-3-item">Quem vence o confronto ganha um turbo (+ 1 ponto) ou não aleatoriamente</label></li>
     </ul>
   </li>
 </ul>
@@ -105,3 +108,19 @@
 - JavaScript.
 - NodeJs.
 
+## Executar o Projeto
+
+primeiro você vai precisar clonar meu repositorio principal com o codigo abaixo:
+``` bash
+    git clone https://github.com/felipertec/meuTudoMobileDeveloper.git
+```
+
+Após baixar o repositório
+``` bash
+    cd MarioKartProject
+```
+
+Executar o projeto
+``` bash
+    node src/index.js
+```
