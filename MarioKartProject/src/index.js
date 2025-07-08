@@ -136,14 +136,25 @@ async function randomAttack(character, enemy){
         console.log(`${character.NOME} venceu o confronto!🤩 ${enemy.NOME} perdeu o confronto! 😵‍💫`)
         enemy.PONTOS--;
         await luckyTurbo(character)
+        if(enemy.PONTOS < 0){
+            enemy.PONTOS = 0
+        }else if(character.PONTOS < 0){
+            character.PONTOS = 0
+        }
+        console.log(`${character.NOME}: ${character.PONTOS} ponto(s)`);
+        console.log(`${enemy.NOME}: ${enemy.PONTOS} ponto(s)`);
     }else if(attack == 1){
         console.log(`${character.NOME} lança uma 💣 em ${enemy.NOME}`)
         console.log(`${character.NOME} venceu o confronto!🤩 ${enemy.NOME} perdeu o confronto! 😵‍💫`)
         enemy.PONTOS -= 2;
+        await luckyTurbo(character)
         if(enemy.PONTOS < 0){
             enemy.PONTOS = 0
+        }else if(character.PONTOS < 0){
+            character.PONTOS = 0
         }
-        await luckyTurbo(character)
+        console.log(`${character.NOME}: ${character.PONTOS} ponto(s)`);
+        console.log(`${enemy.NOME}: ${enemy.PONTOS} ponto(s)`);
     }
 }
 
