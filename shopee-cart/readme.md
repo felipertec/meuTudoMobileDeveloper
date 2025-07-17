@@ -7,3 +7,20 @@ Criar um carrinho de compras baseado no carrinho de cinoras da shopee , onde o c
 //entidades representadas
 // => carrinho = cart.js
 // => itens = item.js
+
+## Executar o Projeto
+
+primeiro você vai precisar clonar meu repositorio principal com o codigo abaixo:
+``` bash
+    git clone https://github.com/felipertec/meuTudoMobileDeveloper.git
+```
+
+Após baixar o repositório
+``` bash
+    cd shopee-cart
+```
+
+Executar o projeto
+``` bash
+    npm start 
+```
